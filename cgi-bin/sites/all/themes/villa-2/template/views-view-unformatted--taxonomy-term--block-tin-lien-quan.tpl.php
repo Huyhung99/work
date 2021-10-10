@@ -1,0 +1,8 @@
+<?php
+?>
+<h3 class="room-details-title">Tin liên quan</h3>
+<?php foreach ($rows as $id => $row): ?>
+        <?php print $row; ?>
+<?php endforeach; ?>
+
+
